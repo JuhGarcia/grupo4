@@ -1,0 +1,157 @@
+/* Resetando alguns estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("TELA\ 01.png");
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: #2980b9; /* Azul */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+  
+  /* Estilo das seções */
+  section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2, section h3 {
+    color: #e67e22; /* Laranja */
+    margin-bottom: 15px;
+  }
+  
+  section p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+  }
+  
+  section ul {
+    list-style-type: none;
+  }
+  
+  section ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  section ul li strong {
+    color: #2980b9; /* Azul */
+  }
+  
+  /* Estilo para os integrantes do grupo */
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .team-member {
+    background-color: #f39c12; /* Laranja */
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 48%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .team-member h3 {
+    color: #fff;
+    font-size: 1.3em;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 1em;
+    color: #fff;
+  }
+  
+  /* Estilo para o vídeo */
+  .video-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .video-container iframe {
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1em;
+  }
+  
+  footer p {
+    color: #777;
+  }
+  
+  footer a.btn {
+    background-color: #2980b9; /* Azul */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  footer a.btn:hover {
+    background-color: #1f6d94;
+    transform: scale(1.1);
+  }
+  
+  /* Adicionando uma transição suave aos links */
+  a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #e67e22; /* Laranja */
+  }
+  
